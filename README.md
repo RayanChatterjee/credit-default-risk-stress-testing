@@ -11,8 +11,7 @@ This project builds on a credit default prediction model using logistic regressi
 - 🔄 Performs **stress testing** by synthetically modifying key financial features:
   - Increased **DebtRatio** to simulate increased debt burdens
   - Increased **NumberOfTime30-59DaysPastDueNotWorse** to simulate repayment delays
-- 📊 Quantified not just net increases in predicted defaults, but also the **individual shifts** in customer risk categories (safe → risky, risky → safe)
-- 🎯 Used **SMOTE** for class imbalance handling and **VIF** to address multicollinearity
-- 💡 Used **SHAP values** for interpreting feature contributions to the default predictions
+- 📊 Quantifies not just net increases in predicted defaults, but also the **individual shifts** in customer risk categories (safe → risky, risky → safe)
+- 💡 Uses **SHAP values** for interpreting feature contributions to the default predictions
 
 ---
